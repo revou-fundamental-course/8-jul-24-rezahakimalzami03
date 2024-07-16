@@ -1,0 +1,70 @@
+/* Ini File CSS */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.title-page {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  gap: 100px;
+}
+
+article {
+  text-align: justify;
+}
+
+.main-article {
+  width: 50rem;
+}
+.form-bmi {
+  background-color: #f2f3f5;
+  padding: 10px 5px 10px 19px;
+}
+
+.form-bmi div {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-bmi div .form-style {
+  width: 50%;
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid black;
+  display: flex;
+}
+
+input[type="number"] {
+  width: 90%;
+  border: none;
+}
+
+input[type="number"]:focus {
+  width: 90%;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.result-form {
+  width: 50rem;
+}
+
+.result-bmi {
+  padding: 10px 10px;
+  background-color: #f2f3f5;
+  text-align: center;
+}
+
+button {
+  background-color: #5cc0de;
+  padding: 10px 10px;
+  border: none;
+}
