@@ -69,7 +69,7 @@ button {
   border: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   /* For mobile phones: */
   main {
     display: grid;
