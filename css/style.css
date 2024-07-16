@@ -12,8 +12,9 @@ body {
 }
 
 main {
+  width: 100%;
   display: flex;
-  gap: 100px;
+  gap: 80px;
 }
 
 article {
@@ -23,6 +24,7 @@ article {
 .main-article {
   width: 50rem;
 }
+
 .form-bmi {
   background-color: #f2f3f5;
   padding: 10px 5px 10px 19px;
@@ -69,10 +71,19 @@ button {
   border: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   /* For mobile phones: */
+
   main {
     display: grid;
     grid-column: 1;
+  }
+
+  .main-article {
+    width: 100%;
+  }
+
+  .result-form {
+    width: 100%;
   }
 }
