@@ -67,6 +67,7 @@ input[type="number"]:focus {
 
 button {
   background-color: #5cc0de;
+  border-radius: 6px 6px;
   padding: 10px 10px;
   border: none;
 }
